@@ -4,10 +4,10 @@
 
 **Instalasi Dependensi**
 
-```pip install -r requirements.txt```
+`pip install -r requirements.txt`
 
 **Run Dashboard**
 
-```cd dashboard```
+`cd dashboard`
 
-```streamlit run dashboard.py```
+`streamlit run dashboard.py`
