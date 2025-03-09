@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load dataset
-bikes_hourly = pd.read_csv("hour_cleaned.csv")
+bikes_hourly = pd.read_csv("dashboard/hour_cleaned.csv")
 
 # Sidebar Filters
 view_option = st.sidebar.selectbox("Pilih Filter", ["Perkembangan Jumlah Sewa Sepeda", "Pengaruh Musim dan Cuaca", "Pengguna Terdaftar vs Tidak Terdaftar", "Pemakaian per Jam"])
